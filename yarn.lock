@@ -3535,6 +3535,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vuepress/helper@npm:2.0.0-rc.73":
+  version: 2.0.0-rc.73
+  resolution: "@vuepress/helper@npm:2.0.0-rc.73"
+  dependencies:
+    "@vue/shared": "npm:^3.5.13"
+    "@vueuse/core": "npm:^12.4.0"
+    cheerio: "npm:1.0.0"
+    fflate: "npm:^0.8.2"
+    gray-matter: "npm:^4.0.3"
+    vue: "npm:^3.5.13"
+  peerDependencies:
+    vuepress: 2.0.0-rc.19
+  checksum: 10c0/4c66a80b346ddb0bd7cba8b71832a08582dd0ca71deef1a8dd201880154e4e934473a46cc44a2ed700d61e2f5347055b5e1abe7d19ddb138d19e0226babb6f48
+  languageName: node
+  linkType: hard
+
 "@vuepress/highlighter-helper@npm:2.0.0-rc.71":
   version: 2.0.0-rc.71
   resolution: "@vuepress/highlighter-helper@npm:2.0.0-rc.71"
@@ -3672,20 +3688,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-docsearch@npm:2.0.0-rc.71":
-  version: 2.0.0-rc.71
-  resolution: "@vuepress/plugin-docsearch@npm:2.0.0-rc.71"
+"@vuepress/plugin-docsearch@npm:2.0.0-rc.73":
+  version: 2.0.0-rc.73
+  resolution: "@vuepress/plugin-docsearch@npm:2.0.0-rc.73"
   dependencies:
     "@docsearch/css": "npm:^3.8.2"
     "@docsearch/js": "npm:^3.8.2"
     "@docsearch/react": "npm:^3.8.2"
-    "@vuepress/helper": "npm:2.0.0-rc.71"
+    "@vuepress/helper": "npm:2.0.0-rc.73"
     "@vueuse/core": "npm:^12.4.0"
     ts-debounce: "npm:^4.0.0"
     vue: "npm:^3.5.13"
   peerDependencies:
     vuepress: 2.0.0-rc.19
-  checksum: 10c0/6b1a204efee6f50dfad0bd4af93550067dfbcaa67aa7de5b6817d10f6d6233c519987594f050a563a3c15935a5f4860fb7e35d73f41c22511638d285da454676
+  checksum: 10c0/adee69e5ad6a72cf13a385237b2799625e8cfd64b000272035576c5c36dc61898f1e1599d46cdf6d9e2aaeffd526d6e4c7a43df5926a996965db76753bd4164a
   languageName: node
   linkType: hard
 
@@ -7409,7 +7425,7 @@ __metadata:
   resolution: "pterodactyl-china@workspace:."
   dependencies:
     "@vuepress/bundler-vite": "npm:2.0.0-rc.19"
-    "@vuepress/plugin-docsearch": "npm:2.0.0-rc.71"
+    "@vuepress/plugin-docsearch": "npm:2.0.0-rc.73"
     "@vuepress/plugin-google-analytics": "npm:^2.0.0-rc.66"
     "@vuepress/plugin-prismjs": "npm:^2.0.0-rc.71"
     "@vuepress/plugin-pwa": "npm:2.0.0-rc.71"
