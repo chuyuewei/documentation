@@ -3535,6 +3535,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vuepress/helper@npm:2.0.0-rc.73":
+  version: 2.0.0-rc.73
+  resolution: "@vuepress/helper@npm:2.0.0-rc.73"
+  dependencies:
+    "@vue/shared": "npm:^3.5.13"
+    "@vueuse/core": "npm:^12.4.0"
+    cheerio: "npm:1.0.0"
+    fflate: "npm:^0.8.2"
+    gray-matter: "npm:^4.0.3"
+    vue: "npm:^3.5.13"
+  peerDependencies:
+    vuepress: 2.0.0-rc.19
+  checksum: 10c0/4c66a80b346ddb0bd7cba8b71832a08582dd0ca71deef1a8dd201880154e4e934473a46cc44a2ed700d61e2f5347055b5e1abe7d19ddb138d19e0226babb6f48
+  languageName: node
+  linkType: hard
+
 "@vuepress/highlighter-helper@npm:2.0.0-rc.71":
   version: 2.0.0-rc.71
   resolution: "@vuepress/highlighter-helper@npm:2.0.0-rc.71"
@@ -3958,19 +3974,19 @@ __metadata:
   linkType: hard
 
 "@vuepress/plugin-revealjs@npm:^2.0.0-rc.71":
-  version: 2.0.0-rc.71
-  resolution: "@vuepress/plugin-revealjs@npm:2.0.0-rc.71"
+  version: 2.0.0-rc.73
+  resolution: "@vuepress/plugin-revealjs@npm:2.0.0-rc.73"
   dependencies:
     "@mdit/plugin-uml": "npm:^0.16.0"
     "@types/markdown-it": "npm:^14.1.2"
     "@types/reveal.js": "npm:^5.0.4"
-    "@vuepress/helper": "npm:2.0.0-rc.71"
+    "@vuepress/helper": "npm:2.0.0-rc.73"
     "@vueuse/core": "npm:^12.4.0"
     reveal.js: "npm:^5.1.0"
     vue: "npm:^3.5.13"
   peerDependencies:
     vuepress: 2.0.0-rc.19
-  checksum: 10c0/01d330df5b9afe5256038ff3e2cdd192cd8cd776b3d6e7e86b7681621e31cbea4f0e6e19a80db8204ce79579286be317135ffc105126b43251859818cc706718
+  checksum: 10c0/480c6d2b1b0aeeba38df19a1b13233e17d1c669090c1365abfc3d17d88e562c1144cfbbe254b34135287f7eb4fa0e7fc97ce7c2b680847b3d4d414ba18b2d3ab
   languageName: node
   linkType: hard
 
